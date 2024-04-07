@@ -1,0 +1,32 @@
+:root {
+    --header-height: 60px;
+    --header-primary : #6B3CC9;
+    --header-color:  #fff;
+}
+
+
+nav {
+    background-color: var(--header-primary);
+    color: var(--header-color);
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-item{
+    gap: 28px;
+}
+
+.nav-link {
+    color: var(--header-color);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-variant-caps: all-petite-caps;
+}
+
+.nav-item:hover .nav-link {
+    color: #fff;
+}

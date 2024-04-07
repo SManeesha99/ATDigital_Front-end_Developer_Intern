@@ -1,0 +1,84 @@
+@import url('@fortawesome/fontawesome-free/css/all.css');
+:root {
+    --primary : #6B3CC9;
+}
+
+.card {
+    max-width: 70%;
+    margin-top: 157px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card-title{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: var(--primary);
+    
+}
+
+.card-text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.title {
+    color: var(--primary);
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion{
+    margin: 10px 20px;
+}
+
+.item{
+    width: Fixed (846px)px;
+    height: Hug (149px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 13px;
+
+}
+
+.tittle{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.show{
+    max-height: 1000px;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
